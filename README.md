@@ -70,5 +70,19 @@ yarn add --dev eslint prettier @react-native-community/eslint-config
   }
 }
 
+```
+#### Add Vscode config to .vscode/settings.json file
 
+```
+ {
+  "files.associations": {
+    "*.jsx": "javascriptreact"
+  },
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
 ```
