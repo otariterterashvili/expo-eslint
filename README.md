@@ -73,7 +73,7 @@ yarn add --dev eslint prettier @react-native-community/eslint-config
 ```
 #### Add Vscode config to .vscode/settings.json file
 
-```
+```json
  {
   "files.associations": {
     "*.jsx": "javascriptreact"
